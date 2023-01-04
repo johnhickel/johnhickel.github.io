@@ -1,2 +1,2 @@
 # portfolio-projects
-A portfolio website and projects demonstrating coding prowess.
+A portfolio website and collection of projects demonstrating coding prowess in html and css.
