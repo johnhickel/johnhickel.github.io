@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(
+    rgb(200, 200, 200),
+    white,
+    rgb(200, 200, 200)
+  );
+}
+
+#title {
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+#description {
+  font-family: Times, serif;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  bottom: 10px;
+}
+
+.link {
+  color: black;
+}
+
+.link:visited {
+  color: rgb(70, 70, 70);
+}
+
+.link:hover {
+  color: white;
+}
+
+fieldset {
+  background-color: white;
+  font-family: Helvetica, snas-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#submit {
+  font-family: Helvetica, snas-serif;
+  text-transform: uppercase;
+}
+
+#submit:hover {
+  color: gray;
+}
+
+.submit-holder {
+  text-align: center;
+  padding: 5px;
+}
+
+#name-label, #email-label, #number-label, #option-label, #question {
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+}
+
+.inline-label {
+  display: flex;
+  justify-content: center;
+}
