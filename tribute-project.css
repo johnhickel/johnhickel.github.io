@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(210, 242, 255);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+#tribute-link {
+  color: gray;
+}
+
+#tribute-link:visited {
+  color: rgb(50, 80, 50);
+}
+
+#tribute-link:hover {
+  color: black;
+}
+
+.wins {
+  font-size:18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.major {
+  font-weight: bold;
+}
+
+.worlds {
+  font-style: italic;
+}
