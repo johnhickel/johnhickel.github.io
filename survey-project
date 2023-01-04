@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form Test</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form Test</h1>
+    <p id="description">Complete this survey for <a class="link" href="https://www.freecodecamp.org/">freeCodeCamp.org</a></p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Enter your name: <input type="text" id="name" name="name" placeholder="John Doe" required /></label>
+        <label id="email-label">Enter your email: <input type="email" id="email" name="email" placeholder="email@gmail.com" required /></label>
+        <label id="number-label">Enter your age: <input type="number" id="number" name="number" min="10" max="200" placeholder="20" required /></label>
+        <label id="option-label">Area of interest:
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Water Skiing</option>
+            <option value="2">Snowboarding</option>
+          </select>
+        </label>
+        <label class="inline-label"><input type="radio" value="male" name="gender" class="inline" /> Male</label>
+        <label class="inline-label"><input type="radio" value="female" name="gender" class="inline" /> Female</label>
+        <label class="inline-label"><input type="checkbox" value="java" class="inline" /> Java</label>
+        <label class="inline-label"><input type="checkbox" value="python" class="inline" /> Python</label>
+        <label id="question">Anything to add:
+          <textarea id="textarea" name="add" rows="3" cols="30" placeholder="Your text here."></textarea>
+      </fieldset>
+      <div class="submit-holder">
+        <input type="submit" id="submit" />
+      </div>
+    </form>
+  </body>
+</html>
