@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 40px;
+  background: linear-gradient(
+    white,
+    gray,
+    lightgray
+  );
+}
+
+#nav-bar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-link {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+  width: 33.33%;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: red;
+}
+
+@media screen and (max-width:400px) {
+  .nav-link {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #header-img {
+    padding-top: 75px;
+  }
+}
+
+#main {
+  font-size: 35px;
+  text-align: center;
+}
+
+#header-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.iframe-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+#email {
+  background-color: lightgray;
+  
+}
