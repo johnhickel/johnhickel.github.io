@@ -61,6 +61,17 @@ body {
     row-gap: 80px;
     column-gap: 35%;
   }
+
+  .project-tile {
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+      width: 300px;
+  }
+
+  img {
+      width: 150px;
+      height: 150px;
   
   #profile {
     overflow: hidden;
