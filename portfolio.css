@@ -62,7 +62,7 @@ body {
     column-gap: 35%;
   }
 
-  .project-tile {
+  .img-indent {
       vertical-align: top;
       display: inline-block;
       text-align: center;
