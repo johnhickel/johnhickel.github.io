@@ -47,7 +47,7 @@ li {
 }
 
 #navbar {
-  height: 240px;
+  height: 100%;
   width: 120px;
   position: fixed;
   z-index: 1;
