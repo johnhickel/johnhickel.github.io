@@ -63,10 +63,13 @@ body {
   }
 
   .project-tile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
   }
+
+  .project-header {
+    position: absolute;
+    left: 100px;
+    top: 100px;
 
   img {
       width: 150px;
