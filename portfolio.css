@@ -137,3 +137,17 @@ body {
   #web-design, #graphic-design {
     scroll-margin-top: 45px;
   }
+
+  .about-header {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 30px;
+  }
+
+  .about-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-right: 50px;
+  }
