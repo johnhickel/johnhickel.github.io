@@ -145,9 +145,33 @@ body {
     padding-top: 30px;
   }
 
-  .about-text {
+  .about-text, .list-text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    padding-left: 35px;
     padding-right: 50px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .about-text {
+    padding-left: 35px;
+  }
+
+  .list-text {
+    padding-left: 50px;
+  }
+
+  .list-item {
+    margin-bottom: 15px;
+  }
+  
+  .code-camp-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: slategray;
+  }
+
+  .code-camp-link:hover {
+    color: lightblue;
   }
