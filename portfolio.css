@@ -53,21 +53,25 @@ body {
     font-size: 22px;
     padding-bottom: 10px;
   }
-  
+
   .tile-holder {
-    display: grid;
-    grid-template: auto / auto auto;
-    justify-content: center;
-    row-gap: 80px;
-    column-gap: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tile-holder-mini {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
   }
 
-  .project-tile {
-    position: relative;
-  }
+  /*.project-tile {
+    background-color: aqua;
+  }*/
 
   .project-header {
-    position: absolute;
+    display:flex;
+    flex-direction: column;
     width: 100%;
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
@@ -80,7 +84,7 @@ body {
   }
 
   .img-size {
-    padding-top: 25px;
+    padding-top: 10px;
     width: 150px;
     height: 150px;
   }
