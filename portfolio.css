@@ -51,7 +51,7 @@ body {
   .projects {
     text-align: center;
     font-size: 22px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   .tile-holder {
@@ -68,7 +68,7 @@ body {
 
   /*.project-tile {
     background-color: aqua;
-  }*/
+  } display the project tile boundaries.*/
 
   .project-header {
     display:flex;
