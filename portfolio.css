@@ -133,3 +133,7 @@ body {
   .project-type-a:hover {
     color: black;
   }
+
+  #web-design, #graphic-design {
+    scroll-margin-top: 45px;
+  }
