@@ -68,8 +68,8 @@ body {
 
   .project-header {
     position: absolute;
-    left: 100px;
-    top: 100px;
+    left: 50px;
+    top: 10px;
   }
 
   .img-size {
