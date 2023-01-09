@@ -68,14 +68,13 @@ body {
 
   .project-header {
     position: absolute;
-    left: 50%;
+    left: 50px;
+    top: 10px;
   }
 
   .img-size {
-    position: absolute;
-    top: 20px;
-    width: 150px;
-    height: 150px;
+      width: 150px;
+      height: 150px;
   }
   
   #profile {
