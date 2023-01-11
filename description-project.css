@@ -114,3 +114,7 @@ tr:hover {
 tr {
   background-color: white;
 }
+
+.bold {
+  font-weight: bold;
+}
