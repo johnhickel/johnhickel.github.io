@@ -119,10 +119,6 @@ table {
   font-weight: bold;
 }
 
-.empty {
-  background-color: rgb(100, 100, 100);
-}
-
 .carousel {
   background-color: lightgreen;
 }
@@ -135,7 +131,7 @@ table {
   background-color: lightcoral;
 }
 
-.stagetr {
+.stagetr, .empty {
   background-color: white;
 }
 
@@ -149,6 +145,6 @@ table {
   border: 2px solid;
 }
 
-.empty, .carousel, .pve, .pvp {
+.round, .empty, .carousel, .pve, .pvp {
   border: 1px solid;
 }
