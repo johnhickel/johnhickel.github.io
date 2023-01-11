@@ -95,7 +95,7 @@ li {
   font-weight: bold;
 }
 
-table, th, td {
+.xptable, .xptr {
   border: 2px solid;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -107,14 +107,48 @@ table {
   margin-left: 85px;
 }
 
-tr:hover {
+.xptr:hover {
   background-color: rgb(100, 100, 100);
 }
 
-tr {
+.xptr {
   background-color: white;
 }
 
 .bold {
   font-weight: bold;
+}
+
+.empty {
+  background-color: rgb(100, 100, 100);
+}
+
+.carousel {
+  background-color: lightgreen;
+}
+
+.pve {
+  background-color: lightblue;
+}
+
+.pvp {
+  background-color: lightcoral;
+}
+
+.stagetr {
+  background-color: white;
+}
+
+.stagetable, .stagetr, .empty, .carousel, .pve, .pvp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.stagetable, .stagetr {
+  border: 2px solid;
+}
+
+.empty, .carousel, .pve, .pvp {
+  border: 1px solid;
 }

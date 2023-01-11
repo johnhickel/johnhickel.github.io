@@ -18,9 +18,9 @@
         <p class="p3">A little legend is the character that a player controls. By right-clicking on the screen, you can direct your little legend to move to that position. This is used to pick up units on the carousel and to pick up gold, items, or units from orbs. Every little legend starts the game with 100 health and loses health by losing fights with other players or by losing to neutrals (PvE rounds that drop gold and items). Once a little legends health hits 0 they are out of the game and they can no longer be battled in PvP rounds. In order to win the game a player must be the last of the 8 little legends to survive.</p>
         <p class="p2">Stages</p>
         <p class="p3">A stage is a collection of rounds and contains 3 types of gameplay (Stage 1 only has 2 types) that can be classified as Carousel, PvE (player vs environment, aka neutrals or neutral rounds), and PvP (player vs player, aka combat rounds). Stage 1 is the only differing stage as it consists only of a carousel round to start the game followed by 3 PvE rounds. After this the stages will follow a pattern of 3 PvP rounds, a carousel round, 2 more PvP rounds, and then a PvE round to end the stage. The stages patterns can be seen in the following chart displaying stages 1-6 (about the length of a regular game):</p>
-        <table>
-          <tr>
-            <th></th>
+        <table class="stagetable">
+          <tr class="stagetr">
+            <th class="empty"></th>
             <th>Round 1</th>
             <th>Round 2</th>
             <th>Round 3</th>
@@ -29,32 +29,65 @@
             <th>Round 6</th>
             <th>Round 7</th>
           </tr>
-          <tr>
+          <tr class="stagetr">
             <td class="bold">Stage 1</td>
-            <td>Carousel</td>
-            <td>PvE</td>
-            <td>PvE</td>
-            <td>PvE</td>
+            <td class="carousel">Carousel</td>
+            <td class="pve">PvE</td>
+            <td class="pve">PvE</td>
+            <td class="pve">PvE</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
           </tr>
-          <tr>
+          <tr class="stagetr">
             <td class="bold">Stage 2</td>
-            <td>2</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="carousel">Carousel</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pve">PvE</td>
           </tr>
-          <tr>
+          <tr class="stagetr">
             <td class="bold">Stage 3</td>
-            <td>6</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="carousel">Carousel</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pve">PvE</td>
           </tr>
-          <tr>
+          <tr class="stagetr">
             <td class="bold">Stage 4</td>
-            <td>10</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="carousel">Carousel</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pve">PvE</td>
           </tr>
-          <tr>
+          <tr class="stagetr">
             <td class="bold">Stage 5</td>
-            <td>20</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="carousel">Carousel</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pve">PvE</td>
           </tr>
-          <tr>
+          <tr class="stagetr">
             <td class="bold">Stage 6</td>
-            <td>36</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="carousel">Carousel</td>
+            <td class="pvp">PvP</td>
+            <td class="pvp">PvP</td>
+            <td class="pve">PvE</td>
           </tr>
         </table>
         <p class="p2">Carousel</p>
@@ -67,46 +100,46 @@
         <p class="p3">Opposite of buying units, selling units can be accomplished by clicking on a unit you own and dragging it over the shop where it will tell you how much gold the unit is worth. Units sell for the same value they were intially bought for unless they have been combined. (see <a class="p3a" href="#Units">Units</a> section)</p>
         <p class="p2">Experience and Levels</p>
         <p class="p3">Everyone starts the game at Level 1 with 0 xp and as they increase levels they can field the same amount of units as their level (Level 1 = 1 unit, Level 9 = 9 units). After each round you gain 2 xp and 4 xp can also be bought in the left side of the shop at a cost of 4 gold. A player can buy as much xp as they like as long as they have the gold to afford it. Each level requires increasing amounts of xp in order to level up and the maximum level is Level 9. With the augment Level Up a player can reach Level 10 Going from Level 1 to Level 2 happens after the first round and can not be purchased by buying xp. The other levels can be seen in the following chart:</p>
-        <table>
-          <tr>
-            <th>Level Change</th>
-            <th>Required XP</th>
+        <table class="xptable">
+          <tr class="xptr">
+            <th class="xptable">Level Change</th>
+            <th class="xptable">Required XP</th>
           </tr>
-          <tr>
-            <td>1 -> 2</td>
-            <td>N/A</td>
+          <tr class="xptr">
+            <td class="xptable">1 -> 2</td>
+            <td class="xptable">N/A</td>
           </tr>
-          <tr>
-            <td>2 -> 3</td>
-            <td>2</td>
+          <tr class="xptr">
+            <td class="xptable">2 -> 3</td>
+            <td class="xptable">2</td>
           </tr>
-          <tr>
-            <td>3 -> 4</td>
-            <td>6</td>
+          <tr class="xptr">
+            <td class="xptable">3 -> 4</td>
+            <td class="xptable">6</td>
           </tr>
-          <tr>
-            <td>4 -> 5</td>
-            <td>10</td>
+          <tr class="xptr">
+            <td class="xptable">4 -> 5</td>
+            <td class="xptable">10</td>
           </tr>
-          <tr>
-            <td>5 -> 6</td>
-            <td>20</td>
+          <tr class="xptr">
+            <td class="xptable">5 -> 6</td>
+            <td class="xptable">20</td>
           </tr>
-          <tr>
-            <td>6 -> 7</td>
-            <td>36</td>
+          <tr class="xptr">
+            <td class="xptable">6 -> 7</td>
+            <td class="xptable">36</td>
           </tr>
-          <tr>
-            <td>7 -> 8</td>
-            <td>56</td>
+          <tr class="xptr">
+            <td class="xptable">7 -> 8</td>
+            <td class="xptable">56</td>
           </tr>
-          <tr>
-            <td>8 -> 9</td>
-            <td>80</td>
+          <tr class="xptr">
+            <td class="xptable">8 -> 9</td>
+            <td class="xptable">80</td>
           </tr>
-          <tr>
-            <td>9 -> 10</td>
-            <td>100</td>
+          <tr class="xptr">
+            <td class="xptable">9 -> 10</td>
+            <td class="xptable">100</td>
           </tr>
         </table>
         <p class="p2">Gold</p>
