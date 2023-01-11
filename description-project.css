@@ -95,7 +95,7 @@ li {
   font-weight: bold;
 }
 
-.xptable, .xptr {
+.xptable, .xptr, .goldtable, .goldtr {
   border: 2px solid;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -111,7 +111,11 @@ table {
   background-color: rgb(100, 100, 100);
 }
 
-.xptr {
+.goldtr:hover {
+  background-color: goldenrod;
+}
+
+.xptr, .goldtr {
   background-color: white;
 }
 
