@@ -95,7 +95,7 @@ li {
   font-weight: bold;
 }
 
-.xptable, .xptr, .goldtable, .goldtr {
+.xptable, .xptr, .goldtable, .goldtr, .costtable, .costtr, .costth, .onecosttd, .twocosttd, .threecosttd, .fourcosttd, .fivecosttd {
   border: 2px solid;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -151,4 +151,28 @@ table {
 
 .round, .empty, .carousel, .pve, .pvp {
   border: 1px solid;
+}
+
+.costth, .onecosttr, .twocosttr, .threecosttr, .fourcosttr, .fivecosttr {
+  background-color: white;
+}
+
+.onecosttr:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+.twocosttr:hover {
+  background-color: lightgreen;
+}
+
+.threecosttr:hover {
+  background-color: lightblue;
+}
+
+.fourcosttr:hover {
+  background-color: mediumpurple;
+}
+
+.fivecosttr:hover {
+  background-color: goldenrod;
 }
