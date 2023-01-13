@@ -73,15 +73,32 @@ li {
 
 #navbar {
   height: 100%;
-  width: 120px;
+  width: 130px;
   position: fixed;
   z-index: 1;
   top: 10px;
   left: 10px;
-  background-color: darkgray;
+  background: linear-gradient(darkgray, rgb(240, 240, 240));
   overflow-x: hidden;
-  padding-top: 15px;
   text-align: center;
+}
+
+.nav-link-header {
+  text-align: center;
+  color: black;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+.nav-link-header:hover, .nav-link:hover {
+  background-color: lightgray;
 }
 
 .nav-link {
@@ -93,6 +110,9 @@ li {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
 }
 
 .xptable, .xptr, .goldtable, .goldtr, .costtable, .costtr, .costth, .onecosttd, .twocosttd, .threecosttd, .fourcosttd, .fivecosttd, .oddstable, .oddstr, .oddsth, .oddslevel {
