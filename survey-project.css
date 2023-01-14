@@ -1,6 +1,6 @@
 body {
   background-color: rgb(40, 40, 43);
-  color: rgb(140, 140, 155);
+  color: rgb(200, 200, 215);
 }
 
 .title {
@@ -60,10 +60,25 @@ fieldset {
   padding: 5px;
 }
 
-#name-label, #email-label, #number-label, #option-label, #question {
-  display: flex;
-  justify-content: center;
-  padding: 9px;
+.p1 {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.textinput {
+  display: block;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(200, 200, 215);
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.textinput:focus {
+  background-color: white;
 }
 
 .inline-label {
