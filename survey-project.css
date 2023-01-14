@@ -1,19 +1,16 @@
 body {
-  background: linear-gradient(
-    rgb(200, 200, 200),
-    white,
-    rgb(200, 200, 200)
-  );
+  background-color: rgb(40, 40, 43);
+  color: rgb(140, 140, 155);
 }
 
-#title {
+.title {
   font-family: Helvetica, sans-serif;
   font-size: 40px;
   text-align: center;
   padding-bottom: 0;
 }
 
-#description {
+.description {
   font-family: Times, serif;
   text-align: center;
   font-size: 18px;
@@ -22,31 +19,40 @@ body {
 }
 
 .link {
-  color: black;
+  color: rgb(200, 200, 220);
+  text-decoration: none;
 }
 
 .link:visited {
-  color: rgb(70, 70, 70);
+  color: rgb(70, 70, 80);
 }
 
 .link:hover {
-  color: white;
+  color: rgb(140, 140, 155);
 }
 
 fieldset {
-  background-color: white;
-  font-family: Helvetica, snas-serif;
+  background-color: rgb(80, 80, 90);
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
   padding: 10px;
+  border: 2px solid black;
+  width: 500px;
+  margin: auto;
 }
 
 #submit {
-  font-family: Helvetica, snas-serif;
+  font-family: Helvetica, sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgb(80, 80, 90);
+  border: 2px solid black;
 }
 
 #submit:hover {
-  color: gray;
+  color: white;
+  background-color: rgb(100, 100, 115);
+  cursor: pointer;
 }
 
 .submit-holder {
